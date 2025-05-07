@@ -1,62 +1,62 @@
-# 💪 Model Fitness: Estrategia de Retención de Clientes
+# 💪 Model Fitness: Customer Retention Strategy
 
-## 📊 Descripción del Proyecto
+## 📊 Project Description
 
-Model Fitness es una cadena de gimnasios que busca mejorar su estrategia de retención de clientes mediante el uso de análisis de datos. Uno de los mayores retos para los gimnasios es la **pérdida de clientes**. Este proyecto tiene como objetivo predecir la probabilidad de cancelación de los usuarios, identificar patrones y sugerir medidas para aumentar la lealtad de los clientes.
+Model Fitness is a gym chain aiming to improve its customer retention strategy using data analysis. One of the biggest challenges for gyms is **customer churn**. This project aims to predict the likelihood of customer cancellation, identify patterns, and suggest measures to increase customer loyalty.
 
-## 🛠️ Herramientas Utilizadas
+## 🛠️ Tools Used
 
-- **Python**: Análisis de datos y modelado predictivo.
-- **Pandas** y **NumPy**: Limpieza y manipulación de datos.
-- **Scikit-learn**: Modelado de clasificación y clustering.
-- **Matplotlib** y **Seaborn**: Visualización de patrones de comportamiento.
-- **SciPy**: Análisis estadístico.
-- **Jupyter Notebook**: Documentación de todo el flujo de trabajo.
+- **Python**: Data analysis and predictive modeling.
+- **Pandas** and **NumPy**: Data cleaning and manipulation.
+- **Scikit-learn**: Classification and clustering modeling.
+- **Matplotlib** and **Seaborn**: Visualization of behavioral patterns.
+- **SciPy**: Statistical analysis.
+- **Jupyter Notebook**: Documentation of the entire workflow.
 
-## 🔄 Flujo de Trabajo
+## 🔄 Workflow
 
-### 🔍 1. Exploración de Datos
+### 🔍 1. Data Exploration
 
-- **Datos ausentes**: Identificación y gestión de valores nulos en las columnas.
-- **Análisis descriptivo**: Cálculo de estadísticas clave como promedios, desviación estándar y análisis de grupos por cancelación.
-- **Visualización**: Realización de histogramas y gráficos de barras para comparar las características de los clientes que cancelaron con los que permanecieron.
-- **Matriz de correlación**: Identificación de relaciones entre las variables y su impacto en la cancelación.
+- **Missing Data**: Identification and handling of null values in the columns.
+- **Descriptive Analysis**: Calculation of key statistics such as averages, standard deviations, and group analysis by cancellation status.
+- **Visualization**: Creation of histograms and bar charts to compare the characteristics of customers who canceled with those who stayed.
+- **Correlation Matrix**: Identification of relationships between variables and their impact on cancellation.
 
-### 🤖 2. Modelado Predictivo
+### 🤖 2. Predictive Modeling
 
-- **Modelos entrenados**: Implementación de dos modelos de clasificación para predecir la probabilidad de cancelación:
-  - **Regresión logística**: Para modelar la probabilidad de que un cliente cancele.
-  - **Bosque aleatorio**: Para captar interacciones complejas entre variables.
-- **Evaluación de modelos**: Comparación de la exactitud, precisión y recall para determinar cuál modelo predice mejor la cancelación de clientes.
+- **Trained Models**: Implementation of two classification models to predict the likelihood of cancellation:
+  - **Logistic Regression**: To model the probability of a customer canceling.
+  - **Random Forest**: To capture complex interactions between variables.
+- **Model Evaluation**: Comparison of accuracy, precision, and recall to determine which model predicts customer cancellation best.
 
-### 🧑‍🤝‍🧑 3. Segmentación de Clientes
+### 🧑‍🤝‍🧑 3. Customer Segmentation
 
-- **Clustering**: Uso del algoritmo K-means para segmentar a los usuarios en clústeres según sus características.
-- **Análisis de clústeres**: Observación de la tasa de cancelación y características clave en cada grupo.
-- **Dendrograma**: Análisis visual para determinar el número de clústeres óptimos.
+- **Clustering**: Use of the K-means algorithm to segment users into clusters based on their characteristics.
+- **Cluster Analysis**: Observation of cancellation rates and key characteristics in each group.
+- **Dendrogram**: Visual analysis to determine the optimal number of clusters.
 
-## 📈 Conclusiones y Recomendaciones
+## 📈 Conclusions and Recommendations
 
-### 🚨 1. Grupos con Alta Tasa de Cancelación
+### 🚨 1. Groups with High Cancellation Rates
 
-- Los clústeres 0, 3 y 4 presentan tasas de cancelación significativamente altas.
-- **Recomendación**: Aplicar campañas de fidelización específicas, como descuentos o acceso a clases exclusivas, para reducir la rotación en estos grupos.
+- Clusters 0, 3, and 4 show significantly high cancellation rates.
+- **Recommendation**: Apply targeted loyalty campaigns, such as discounts or access to exclusive classes, to reduce churn in these groups.
 
-### 🏋️‍♀️ 2. Participación en Actividades Grupales
+### 🏋️‍♀️ 2. Participation in Group Activities
 
-- Los usuarios que participan en clases grupales tienen menos probabilidad de cancelar su membresía.
-- **Recomendación**: Incentivar la participación en clases grupales mediante programas de recompensas y descuentos para aquellos que asistan regularmente.
+- Users who participate in group classes are less likely to cancel their membership.
+- **Recommendation**: Encourage participation in group classes through reward programs and discounts for those who attend regularly.
 
-### 🚶‍♀️ 3. Frecuencia de Visitas
+### 🚶‍♀️ 3. Visit Frequency
 
-- La baja frecuencia de visitas es un indicio clave de cancelación inminente.
-- **Recomendación**: Implementar alertas de baja actividad para contactar a los clientes que no han visitado el gimnasio en más de una semana, ofreciendo promociones para reactivar su asistencia.
+- Low visit frequency is a key indicator of imminent cancellation.
+- **Recommendation**: Implement activity alerts to contact customers who haven't visited the gym in over a week, offering promotions to reactivate their attendance.
 
-### ❤️ 4. Clientes Leales
+### ❤️ 4. Loyal Customers
 
-- Los usuarios con más tiempo de membresía tienden a cancelar menos, pero aún pueden beneficiarse de atención personalizada.
-- **Recomendación**: Desarrollar un programa de recompensas para los usuarios más leales, con beneficios como masajes o clases exclusivas.
+- Users with longer membership durations tend to cancel less, but they can still benefit from personalized attention.
+- **Recommendation**: Develop a reward program for the most loyal customers, offering benefits like massages or exclusive classes.
 
-## 🎯 Conclusión General
+## 🎯 Overall Conclusion
 
-A través de la segmentación de clientes y el análisis de los factores que influyen en la cancelación, Model Fitness puede optimizar su estrategia de retención. Implementando medidas personalizadas basadas en datos, el gimnasio puede reducir significativamente su tasa de cancelación y mejorar la satisfacción general de sus usuarios.
+Through customer segmentation and the analysis of factors influencing cancellation, Model Fitness can optimize its retention strategy. By implementing data-driven, personalized measures, the gym can significantly reduce its cancellation rate and improve overall user satisfaction.
